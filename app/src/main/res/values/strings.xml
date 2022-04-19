@@ -1,13 +1,17 @@
 <resources>
     <string name="app_name">Candelario_PhysicsCalculator</string>
-    <string name="area_text_1">Tab 1</string>
-    <string name="area_text_2">Tab 2</string>
-    <string name="area_text_3">Tab 3</string>
-    <string name="area_text_4">Tab 4</string>
-    <string name="area_text_5">Tab 5</string>
-    <string name="volume_text_1">Tab 1</string>
-    <string name="volume_text_2">Tab 2</string>
-    <string name="volume_text_3">Tab 3</string>
-    <string name="volume_text_4">Tab 4</string>
-    <string name="volume_text_5">Tab 5</string>
+    <string name="area_text_1">Triangle</string>
+    <string name="area_text_2">Rectangle</string>
+    <string name="area_text_3">Ellipse</string>
+    <string name="area_text_4">Trapezoid</string>
+    <string name="area_text_5">Circle</string>
+    <string name="volume_text_1">Cylinder</string>
+    <string name="volume_text_2">Prism</string>
+    <string name="volume_text_3">Sphere</string>
+    <string name="volume_text_4">Tetrahedron</string>
+    <string name="volume_text_5">Ellipsoid</string>
+    <string name="title_activity_area_main">AreaMain</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_main">MainActivity</string>
 </resources>

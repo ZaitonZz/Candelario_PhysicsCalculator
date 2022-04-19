@@ -1,4 +1,4 @@
-package com.example.candelario_physicscalculator.View.Area.main;
+package com.example.candelario_physicscalculator.View.Area.ui.main;
 
 import androidx.arch.core.util.Function;
 import androidx.lifecycle.LiveData;

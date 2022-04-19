@@ -10,9 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Candelario_PhysicsCalculator">
         <activity
-            android:name=".View.Area.AreaMain"
+            android:name=".View.ChoosingScreen"
+            android:exported="false" />
+        <activity
+            android:name=".View.Area.MainActivity"
             android:exported="true"
-            android:label="@string/app_name"
+            android:label="@string/title_activity_main"
+            android:theme="@style/Theme.Candelario_PhysicsCalculator.NoActionBar"></activity>
+        <activity
+            android:name=".View.Volume.MainActivity"
+            android:exported="true"
+            android:label="@string/title_activity_main"
             android:theme="@style/Theme.Candelario_PhysicsCalculator.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

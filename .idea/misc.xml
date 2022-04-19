@@ -3,19 +3,26 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Philip/AndroidStudioProjects/Candelario_PhysicsCalculator/app/src/main/res/layout/activity_choosing_screen.xml" value="0.19010416666666666" />
         <entry key="..\:/Users/Philip/AndroidStudioProjects/Candelario_PhysicsCalculator/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Philip/AndroidStudioProjects/Candelario_PhysicsCalculator/app/src/main/res/layout/area_fragment_five.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Philip/AndroidStudioProjects/Candelario_PhysicsCalculator/app/src/main/res/layout/area_fragment_four.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Philip/AndroidStudioProjects/Candelario_PhysicsCalculator/app/src/main/res/layout/area_fragment_main.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Philip/AndroidStudioProjects/Candelario_PhysicsCalculator/app/src/main/res/layout/area_fragment_one.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Philip/AndroidStudioProjects/Candelario_PhysicsCalculator/app/src/main/res/layout/area_fragment_three.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Philip/AndroidStudioProjects/Candelario_PhysicsCalculator/app/src/main/res/layout/area_fragment_two.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Philip/AndroidStudioProjects/Candelario_PhysicsCalculator/app/src/main/res/layout/fragment_area_main.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Philip/AndroidStudioProjects/Candelario_PhysicsCalculator/app/src/main/res/layout/fragment_four.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Philip/AndroidStudioProjects/Candelario_PhysicsCalculator/app/src/main/res/layout/fragment_fove.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Philip/AndroidStudioProjects/Candelario_PhysicsCalculator/app/src/main/res/layout/fragment_main.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Philip/AndroidStudioProjects/Candelario_PhysicsCalculator/app/src/main/res/layout/fragment_one.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Philip/AndroidStudioProjects/Candelario_PhysicsCalculator/app/src/main/res/layout/fragment_three.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Philip/AndroidStudioProjects/Candelario_PhysicsCalculator/app/src/main/res/layout/fragment_two.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/Philip/AndroidStudioProjects/Candelario_PhysicsCalculator/app/src/main/res/layout/volume_fragment_five.xml" value="0.18802083333333333" />
-        <entry key="..\:/Users/Philip/AndroidStudioProjects/Candelario_PhysicsCalculator/app/src/main/res/layout/volume_fragment_four.xml" value="0.18802083333333333" />
-        <entry key="..\:/Users/Philip/AndroidStudioProjects/Candelario_PhysicsCalculator/app/src/main/res/layout/volume_fragment_one.xml" value="0.18802083333333333" />
-        <entry key="..\:/Users/Philip/AndroidStudioProjects/Candelario_PhysicsCalculator/app/src/main/res/layout/volume_fragment_three.xml" value="0.18802083333333333" />
-        <entry key="..\:/Users/Philip/AndroidStudioProjects/Candelario_PhysicsCalculator/app/src/main/res/layout/volume_fragment_two.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Philip/AndroidStudioProjects/Candelario_PhysicsCalculator/app/src/main/res/layout/volume_fragment_five.xml" value="0.33" />
+        <entry key="..\:/Users/Philip/AndroidStudioProjects/Candelario_PhysicsCalculator/app/src/main/res/layout/volume_fragment_four.xml" value="0.33" />
+        <entry key="..\:/Users/Philip/AndroidStudioProjects/Candelario_PhysicsCalculator/app/src/main/res/layout/volume_fragment_one.xml" value="0.33" />
+        <entry key="..\:/Users/Philip/AndroidStudioProjects/Candelario_PhysicsCalculator/app/src/main/res/layout/volume_fragment_three.xml" value="0.33" />
+        <entry key="..\:/Users/Philip/AndroidStudioProjects/Candelario_PhysicsCalculator/app/src/main/res/layout/volume_fragment_two.xml" value="0.33" />
         <entry key="..\:/Users/Philip/AndroidStudioProjects/Candelario_PhysicsCalculator/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.354" />
         <entry key="..\:/Users/Philip/AndroidStudioProjects/Candelario_PhysicsCalculator/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.354" />
       </map>
