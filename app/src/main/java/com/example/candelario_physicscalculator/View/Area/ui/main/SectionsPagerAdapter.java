@@ -9,11 +9,11 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
 import com.example.candelario_physicscalculator.R;
-import com.example.candelario_physicscalculator.View.Area.FragmentFive;
-import com.example.candelario_physicscalculator.View.Area.FragmentFour;
-import com.example.candelario_physicscalculator.View.Area.FragmentOne;
-import com.example.candelario_physicscalculator.View.Area.FragmentThree;
-import com.example.candelario_physicscalculator.View.Area.FragmentTwo;
+import com.example.candelario_physicscalculator.View.Area.A_FragmentFive;
+import com.example.candelario_physicscalculator.View.Area.A_FragmentFour;
+import com.example.candelario_physicscalculator.View.Area.A_FragmentOne;
+import com.example.candelario_physicscalculator.View.Area.A_FragmentThree;
+import com.example.candelario_physicscalculator.View.Area.A_FragmentTwo;
 
 /**
  * A [FragmentPagerAdapter] that returns a fragment corresponding to
@@ -35,19 +35,19 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
         Fragment fragment=null;
         switch(position){
             case 0:
-                fragment= new FragmentOne();
+                fragment= new A_FragmentOne();
                 break;
             case 1:
-                fragment= new FragmentTwo();
+                fragment= new A_FragmentTwo();
                 break;
             case 2:
-                fragment= new FragmentThree();
+                fragment= new A_FragmentThree();
                 break;
             case 3:
-                fragment= new FragmentFour();
+                fragment= new A_FragmentFour();
                 break;
             case 4:
-                fragment= new FragmentFive();
+                fragment= new A_FragmentFive();
                 break;
         }
         return fragment;

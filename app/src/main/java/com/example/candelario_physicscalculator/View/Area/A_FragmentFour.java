@@ -1,4 +1,4 @@
-package com.example.candelario_physicscalculator.View.Volume;
+package com.example.candelario_physicscalculator.View.Area;
 
 import static androidx.constraintlayout.helper.widget.MotionEffect.TAG;
 
@@ -19,7 +19,7 @@ import com.example.candelario_physicscalculator.Controller.CalculationRelated;
 import com.example.candelario_physicscalculator.Model.VariableRelated;
 import com.example.candelario_physicscalculator.R;
 
-public class V_FragmentFive extends Fragment {
+public class A_FragmentFour extends Fragment {
 
     Button button;
     EditText var1, var2, var3;
@@ -31,7 +31,7 @@ public class V_FragmentFive extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.volume_fragment_five, container, false);
+        View rootView = inflater.inflate(R.layout.area_fragment_four, container, false);
         button = rootView.findViewById(R.id.calc);
         var1 = rootView.findViewById(R.id.var1);
         var2 = rootView.findViewById(R.id.var2);
@@ -44,21 +44,21 @@ public class V_FragmentFive extends Fragment {
             public void onClick(View view) {
                 Log.d(TAG, "onClick: working1");
                 try {
-                    var.setVolume_minor_axis(Double.parseDouble(var1.getText().toString()));
+                    var.setArea_short_base(Double.parseDouble(var1.getText().toString()));
                 } catch (NumberFormatException e) {
 
                 }
                 try {
-                    var.setVolume_major_axis(Double.parseDouble(var2.getText().toString()));
+                    var.setArea_long_base(Double.parseDouble(var2.getText().toString()));
                 } catch (NumberFormatException e) {
 
                 }
                 try {
-                    var.setVolume_vertical_axis(Double.parseDouble(var3.getText().toString()));
+                    var.setArea_height(Double.parseDouble(var3.getText().toString()));
                 } catch (NumberFormatException e) {
 
                 }
-                calc.volume_of_ellipsoid(var.getVolume_minor_axis(),var.getVolume_major_axis(),var.getVolume_vertical_axis(),result);
+                calc.area_of_trapezoid(var.getArea_short_base(),var.getArea_long_base(),var.getArea_height(),result);
             }
         });
 

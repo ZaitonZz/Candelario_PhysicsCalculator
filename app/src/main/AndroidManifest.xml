@@ -11,22 +11,23 @@
         android:theme="@style/Theme.Candelario_PhysicsCalculator">
         <activity
             android:name=".View.ChoosingScreen"
-            android:exported="false" />
-        <activity
-            android:name=".View.Area.MainActivity"
-            android:exported="true"
-            android:label="@string/title_activity_main"
-            android:theme="@style/Theme.Candelario_PhysicsCalculator.NoActionBar"></activity>
-        <activity
-            android:name=".View.Volume.MainActivity"
-            android:exported="true"
-            android:label="@string/title_activity_main"
-            android:theme="@style/Theme.Candelario_PhysicsCalculator.NoActionBar">
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".View.Area.AreaActivity"
+            android:exported="true"
+            android:label="@string/title_activity_main"
+            android:theme="@style/Theme.Candelario_PhysicsCalculator.NoActionBar"></activity>
+        <activity
+            android:name=".View.Volume.VolumeActivity"
+            android:exported="true"
+            android:label="@string/title_activity_main"
+            android:theme="@style/Theme.Candelario_PhysicsCalculator.NoActionBar">
         </activity>
     </application>
 
